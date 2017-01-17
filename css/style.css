@@ -109,7 +109,7 @@ a {
 }
 
 .orange-text {
-  color: #f5ae23;
+  color: #ffff00;
 }
 
 .white-text {
@@ -124,12 +124,21 @@ a {
 }
 
 .dark-gray {
-  background-color: #4a4a4a;
+  background-color: #96059e;
+}
+
+.changecol {
+  background-color: #96059e;
+  color: orange;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #96059E;
+}
+
+#projects, #mapDiv {
+  background-color: #ffffcc;
 }
 
 .flex-box {
@@ -170,7 +179,9 @@ img {
 span {
   padding: 5px;
 }
-
+.noPad {
+  padding-left: 0px;
+}
 #lets-connect {
   text-align: center;
 }
